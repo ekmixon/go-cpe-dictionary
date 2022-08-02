@@ -96,7 +96,7 @@ else:
     logger.error('Failed to communicate with server')
     exit(1)
 
-list_path = f"integration/cpe.txt"
+list_path = "integration/cpe.txt"
 if not os.path.isfile(list_path):
     logger.error(f'Failed to find list path..., list_path: {list_path}')
     exit(1)
